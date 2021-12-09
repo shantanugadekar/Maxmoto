@@ -1,0 +1,147 @@
+#title {
+  background-color: red;
+  color: #fff;
+}
+
+h1{
+  font-family: "Montserrat" , sans-serif;
+  font-size:  3rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+h2{
+  font-family: "Montserrat";
+  font-size: 3rem;
+  font-weight: 700;
+}
+h3{
+  font-family: "Montserrat-bold";
+  font-weight: 900;
+}
+.service-h1{
+    font-family: "Montserrat";
+    font-size:  3rem;
+    line-height: 1.5;
+    font-weight: 800;
+}
+.container-fluid{
+  padding: 3% 15%;
+  padding-bottom: 7%;
+}
+body{
+  font-family: "Montserrat",sans-serif;
+}
+.navbar{
+  padding:0 0 4.5rem;
+}
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+.navbar-item{
+    padding: 0 500px;
+      color: black;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat-bold";
+  margin: 0 10px;
+
+}
+
+/* download buttons */
+
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+/* title image */
+.title-image{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 20%;
+  }
+/* features section */
+
+#features{
+  background-color: #fff;
+  padding: 7% 15%;
+  position: relative;
+  index: 1;
+}
+.feature-box{
+  text-align: center;
+  padding: 5%;
+}
+.icon{
+  color: red;
+  margin-bottom: 1rem;
+}
+.icon:hover{
+  color: #ff5151;
+}
+
+/* testimonils */
+
+#testimonials{
+  background-color: #ff5151;
+  color: #fff;
+  text-align: center;
+  padding: 7% 15%;
+}
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+#press{
+  background-color:#ff5151;
+  text-align: center;
+  padding-bottom: 3%;
+  }
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+.button{
+width:10%;
+margin-top: 70px;
+}
+
+
+/* Pricing */
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+.pricing-column{
+  padding: 3% 2%;
+}
+@media (max-width:1080px) {
+  .title-image{
+    position: static;
+    transform:  rotate(0);
+  }
+  #title{
+    text-align: center;
+  }
+}
+#cta{
+  text-align: center;
+  background-color: red;
+  color: #fff;
+  padding: 2% 10%;
+}
+.button-cta{
+  margin: 20px 30px;
+}
+#footer{
+  text-align: center;
+  padding: 5% 10%
+}
+.footer-link{
+color: black;
+margin: 2px 5px;
+}
